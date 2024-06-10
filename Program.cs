@@ -45,7 +45,7 @@ else
             var key = (caseSensitive != null && caseSensitive == "1") ? 
                     output[x].Key.ToLowerInvariant() : output[x].Key.ToString();
 
-            Console.WriteLine(key + "(" + output[x].Value + ")");
+            Console.WriteLine(key + " (" + output[x].Value + ")");
         }
     }
     catch (Exception e) { Console.WriteLine(e.ToString()); }
