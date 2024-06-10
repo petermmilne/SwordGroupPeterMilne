@@ -41,7 +41,7 @@ else
 
         for (int x=0; x < output.Count; x++)
         {
-            //  If we are case sensistive we will use all lower case characters
+            //  If we are case insensitive we will use all lower case characters
             var key = (caseSensitive != null && caseSensitive == "1") ? 
                     output[x].Key.ToLowerInvariant() : output[x].Key.ToString();
 
