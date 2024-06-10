@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SwordGroupPeterMilne": {
+      "commandName": "Project",
+      "commandLineArgs": "input.txt 0"
+    }
+  }
+}
